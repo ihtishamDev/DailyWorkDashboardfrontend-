@@ -22,7 +22,7 @@ const getStatusColor = (status: string) => {
   if (status === "Unqualified") return "bg-red-100 text-red-600";
   return "bg-green-100 text-green-600";
 };
-
+ 
 export default function DailyTaskPage() {
   const [selectedPriority, setSelectedPriority] = useState("");
   const [selectedStatus, setSelectedStatus] = useState("");
