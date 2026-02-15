@@ -1,14 +1,22 @@
-import Header from "@/components/Header";
-import LeadsToolbar from "@/components/DailyTaskpage";
+// import Header from "@/components/Header";
+// import LeadsToolbar from "@/components/DailyTaskpage";
 
-export default function Home() {
-  return (
-    <div className="">
-      {/* Top Header */}
-      <Header />
+// export default function Home() {
+//   return (
+//     <div className="">
+//       {/* Top Header */}
+//       <Header />
 
       
      
-    </div>
-  );
+//     </div>
+//   );
+// }
+
+"use client";
+
+import DailyTaskPage from "@/components/DailyTaskpage";
+
+export default function Page() {
+  return <DailyTaskPage />;
 }
