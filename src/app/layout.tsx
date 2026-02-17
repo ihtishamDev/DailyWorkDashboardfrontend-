@@ -32,7 +32,7 @@ export default function RootLayout({
             <button onClick={() => setIsOpen(true)}>☰</button>
           </div>
 
-          <main>{children}</main>
+          <main>{children}</main>  
         </div>
       </body>
     </html>
